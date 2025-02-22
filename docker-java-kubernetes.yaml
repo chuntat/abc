@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: server-service
-          image: chuntato/abc:latest
+          image: chuntato/abc
           imagePullPolicy: Always
 ---
 apiVersion: v1
